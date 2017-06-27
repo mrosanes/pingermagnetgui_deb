@@ -1,3 +1,11 @@
+pingermagnetgui (1.6+git20170627.1.3c05f8-1) stretch-backports; urgency=medium
+
+  * local package
+  * Added debian files
+  * Added lintian overrrides
+
+ -- sicilia <sicilia@cells.es>  Tue, 27 Jun 2017 09:04:35 +0000
+
 pingermagnetgui (1.6+git20170627.1.3c05f8-0~bpo9+0~alba+1) stretch-backports; urgency=low
 
   * source package automatically created by stdeb 0.8.5
