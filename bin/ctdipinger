@@ -1,0 +1,10 @@
+#!/usr/bin/sh
+
+#QT_PLUGIN_PATH=''
+echo 'Reseting QT_PLUGIN_PATH to null...'
+rm -rf /homelocal/$USER/.config/Trolltech.conf &
+
+GUI_PATH=`python -c "import imp;print(imp.find_module('PingerMagnetGUI')[1])"`
+cd $GUI_PATH
+
+python gui_pinger.py $*

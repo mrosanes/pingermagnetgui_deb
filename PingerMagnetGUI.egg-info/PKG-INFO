@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: PingerMagnetGUI
+Version: 1.6
+Summary: GUI to control H/V Pinger Magnets
+Home-page: git@git.cells.es:controls/PingerMagnetGUI.git
+Author: Manolo Broseta
+Author-email: mbroseta@cells.es
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
