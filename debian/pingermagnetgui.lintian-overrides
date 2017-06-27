@@ -1,2 +1,2 @@
-extended-description-is-probably-too-short
 binary-without-manpage usr/bin/ctdipinger
+description-starts-with-leading-spaces
