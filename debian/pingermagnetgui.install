@@ -1,0 +1,3 @@
+#!/usr/bin/dh-exec
+debian/pingermagnetgui/usr/bin/ctdipinger => /usr/share/PingerMagnetGUI/ctdipinger_
+

@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+python -m compileall /usr/share/PingerMagnetGUI/ctdipinger
+
+#DEBHELPER#
+exit 0
+

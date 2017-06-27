@@ -2,12 +2,16 @@ Source: pingermagnetgui
 Maintainer: sicilia <sicilia@cells.es>
 Section: python
 Priority: optional
-Build-Depends: dh-python, python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
-Standards-Version: 3.9.6
-Homepage: git@git.cells.es:controls/PingerMagnetGUI.git
+Build-Depends: dh-python, python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9), dh-exec
+Standards-Version: 3.9.8
+Homepage: http://www.cells.es
 
-Package: python-pingermagnetgui
+Package: pingermagnetgui
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python:Depends}, python-tango, python-taurus
 Description: GUI to control H/V Pinger Magnets
+  used in control room to test beam 
+  stability. They have independent control 
+  and cannot be operative while beam is
+  available for users
 
