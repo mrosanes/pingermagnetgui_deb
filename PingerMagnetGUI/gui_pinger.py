@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-
-
 import sys, os, time
 import PyTango
 from PyQt4 import QtCore, QtGui #, Qt
@@ -319,8 +317,8 @@ class Pinger_Win(QtGui.QMainWindow):
                                            
 def main():      
     import os
-    print os.getenv('TANGO_HOST')
-    tangodbName = os.getenv('TANGO_HOST')
+    print fandango.get_tango_host()
+    tangodbName = fandango.get_tango_host()
     
     app= QtGui.QApplication(sys.argv)    
  
@@ -330,7 +328,7 @@ def main():
     if len(sys.argv) == 2:
         pingerSelected = sys.argv[1]
 
-    if tangodbName.startswith("alba03"):
+    if tangodbName is not None and tangodbName.startswith("alba03"):
         valid_pingers = ('VERTICAL-01','HORIZONTAL-01')
     else:
         valid_pingers = ()
