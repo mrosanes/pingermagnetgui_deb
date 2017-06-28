@@ -89,15 +89,15 @@ class Pinger_Win(QtGui.QMainWindow):
             # Define ITLK LEDS colors
             self.ui.doorInterlockLed.setOffColor('GREEN')  
             self.ui.doorInterlockLed.setOnColor('RED')              
-            self.ui.doorInterlockLed.setLedPatternName(":leds/images256/led_{color}_on.png")
+            self.ui.doorInterlockLed.setLedPatternName("leds_images256:led_{color}_on.png")
                                    
             self.ui.HVPSInterlockLed.setOnColor('RED')
             self.ui.HVPSInterlockLed.setOffColor('GREEN')                   
-            self.ui.HVPSInterlockLed.setLedPatternName(":leds/images256/led_{color}_on.png")
+            self.ui.HVPSInterlockLed.setLedPatternName("leds_images256:led_{color}_on.png")
                        
             self.ui.PSInterlockLed.setOffColor('GREEN')  
             self.ui.PSInterlockLed.setOnColor('RED')              
-            self.ui.PSInterlockLed.setLedPatternName(":leds/images256/led_{color}_on.png")
+            self.ui.PSInterlockLed.setLedPatternName("leds_images256:led_{color}_on.png")
                        
             # Initializes limits    
             self.ui.voltageSetPoint.setMinValue(MIN_VOLTAGE_VALUE)
