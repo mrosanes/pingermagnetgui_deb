@@ -1,3 +1,10 @@
+pingermagnetgui (1.6+git20170628.1.178903-0~bpo9+0~alba+1) stretch-backports; urgency=medium
+
+  * local package
+  * New upstream version 1.6+git20170628.1.178903
+
+ -- sicilia <sicilia@cells.es>  Wed, 28 Jun 2017 15:11:27 +0000
+
 pingermagnetgui (1.6+git20170627.1.3c05f8-1) stretch-backports; urgency=medium
 
   * local package
