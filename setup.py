@@ -19,35 +19,38 @@ To install as local package:
 """
 print(__doc__)
 
-__MAJOR_VERSION = 1
-__MINOR_VERSION = 7
-
-__version = "%d.%d"%(__MAJOR_VERSION,__MINOR_VERSION)
-
-__scripts = ['./bin/ctdipinger', ] 
+# The version is updated automatically with bumpversion
+# Do not update manually
+__version = '1.8.1'
 
 __license = 'GPL-3.0' 
 
-package_data = {
-    '': [] #'CHANGES','VERSION','README',
-    #'./tools/icon/*','./tools/*ui',],
-    } 
 
-setup(name = 'PingerMagnetGUI',
+setup(
+    name = 'PingerMagnetGUI',
     version = __version,
     license = __license,
-    description = 'GUI to control H/V Pinger Magnets',
     author='Manolo Broseta',
     author_email='mbroseta@cells.es',
-    url='git@git.cells.es:controls/PingerMagnetGUI.git',
+    maintainer='ct4',
+    maintainer_email='ct4@cells.es',
     packages=find_packages(),
-    scripts = __scripts,
-    include_package_data = True,
-    package_data = package_data,
     entry_points = {
         'console_scripts': 
             [
             'ctdipinger = PingerMagnetGUI.gui_pinger:main',
             ]
         },
+    keywords='GUI',
+    include_package_data = True,
+    description = 'GUI to control H/V Pinger Magnets',
+    long_description = "GUI to control Horizontal and Vertical Pinger Magnets",
+    classifiers=['Development Status :: 5 - Production',
+                'Intended Audience :: Science/Research',
+                'License :: OSI Approved :: '
+                'GNU General Public License v3 or later (GPLv3+)',
+                'Programming Language :: Python',
+                'Topic :: Scientific/Engineering :: '
+                ''],
+    url='https://git.cells.es/controls/PingerMagnetGUI',
     )

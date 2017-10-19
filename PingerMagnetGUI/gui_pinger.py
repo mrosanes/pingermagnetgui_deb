@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 import sys, os, time
 import PyTango
-from PyQt4 import QtCore, QtGui #, Qt
 import taurus
+from taurus.external.qt import QtCore, QtGui, uic
 import fandango
 import xml.dom.minidom
-from pinger_ui import Ui_MainWindow
 
 
 SEPARATOR = "#"
@@ -42,14 +41,15 @@ PM_PLC_PMH = "PC_PU_RKA07C01_01_DO"
 class Pinger_Win(QtGui.QMainWindow):
     def __init__(self, param=None, parent=None):
         try:
-            QtGui.QWidget.__init__(self, parent)
 
             # Get graphical information
-            self.ui = Ui_MainWindow()
-            self.ui.setupUi(self)       
-            self.devicelist = []               
+            QtGui.QWidget.__init__(self, parent)
+            uipath = os.path.join(os.path.dirname(__file__),
+                                "ui",
+                                "pinger.ui")
+            self.ui = uic.loadUi(uipath, self)
             
-                    
+            self.devicelist = []
             self._pinger = param
             self.setWindowTitle(self._pinger+" Pinger Magnet")                       
             

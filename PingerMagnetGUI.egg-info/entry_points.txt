@@ -1,3 +1,0 @@
-[console_scripts]
-ctdipinger = PingerMagnetGUI.gui_pinger:main
-
