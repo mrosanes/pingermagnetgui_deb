@@ -1,3 +1,12 @@
+pingermagnetgui (1.8.1-0~bpo9+0~alba+1) stretch-backports; urgency=medium
+
+  * local package
+  * Update and fix watch file
+  * Update watch file
+  * New upstream version 1.8.1
+
+ -- mrosanes <mrosanes@cells.es>  Thu, 19 Oct 2017 07:50:15 +0000
+
 pingermagnetgui (1.7+git20170628.1.c55376-0~bpo9+0~alba+1) stretch-backports; urgency=medium
 
   * local package
