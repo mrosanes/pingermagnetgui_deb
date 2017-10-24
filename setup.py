@@ -21,7 +21,7 @@ print(__doc__)
 
 # The version is updated automatically with bumpversion
 # Do not update manually
-__version = '1.8.1'
+__version = '1.8.2'
 
 __license = 'GPL-3.0' 
 

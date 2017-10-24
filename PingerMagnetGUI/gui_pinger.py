@@ -1,11 +1,14 @@
 #!/usr/bin/env python
+
 import sys, os, time
+import xml.dom.minidom
+
 import PyTango
 import taurus
 from taurus.external.qt import QtCore, QtGui, uic
 import fandango
-import xml.dom.minidom
 
+import rcc_pinger
 
 SEPARATOR = "#"
 DELAY_INTEGER_DIGITS = 11

@@ -1,3 +1,5 @@
 global-exclude *.pyc
-graft PingerMagnetGUI/ui
-graft PingerMagnetGUI/icon
+include PingerMagnetGUI/*.qrc
+include PingerMagnetGUI/ui/*.ui
+include PingerMagnetGUI/icon/*.png
+include PingerMagnetGUI/icon/*.svg

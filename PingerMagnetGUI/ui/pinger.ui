@@ -583,8 +583,8 @@
          <string>O&amp;n</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>icon/power.png</normaloff>icon/power.png</iconset>
+         <iconset resource="pinger.qrc">
+          <normaloff>:/icon/icon/power.png</normaloff>:/icon/icon/power.png</iconset>
         </property>
        </widget>
        <widget class="QLabel" name="label_2">
@@ -653,8 +653,8 @@
          <string>&amp;Apply</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>icon/checkmark.png</normaloff>icon/checkmark.png</iconset>
+         <iconset resource="pinger.qrc">
+          <normaloff>:/icon/icon/checkmark.png</normaloff>:/icon/icon/checkmark.png</iconset>
         </property>
        </widget>
        <widget class="QTextBrowser" name="Statusbox">
@@ -1136,8 +1136,8 @@
          <string>&amp;Standby</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>icon/reset.svg</normaloff>icon/reset.svg</iconset>
+         <iconset resource="pinger.qrc">
+          <normaloff>:/icon/icon/reset.svg</normaloff>:/icon/icon/reset.svg</iconset>
         </property>
        </widget>
        <widget class="TaurusLabel" name="status_value">
@@ -1683,8 +1683,8 @@
          <string>O&amp;ff</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>icon/poweroff.png</normaloff>icon/poweroff.png</iconset>
+         <iconset resource="pinger.qrc">
+          <normaloff>:/icon/icon/poweroff.png</normaloff>:/icon/icon/poweroff.png</iconset>
         </property>
        </widget>
        <widget class="QGroupBox" name="groupBox_5">
@@ -2180,8 +2180,8 @@
          <string>S&amp;cope</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normaloff>icon/bruker-tune.svg</normaloff>icon/bruker-tune.svg</iconset>
+         <iconset resource="pinger.qrc">
+          <normaloff>:/icon/icon/bruker-tune.svg</normaloff>:/icon/icon/bruker-tune.svg</iconset>
         </property>
        </widget>
       </widget>
@@ -2231,8 +2231,8 @@
   </action>
   <action name="actionQuit">
    <property name="icon">
-    <iconset>
-     <normaloff>../../../../siciliarep/build/lib/taurus/lib64/python2.6/site-packages/taurus/qt/qtgui/resource/tango-icons/emotes/face-wink.svg</normaloff>../../../../siciliarep/build/lib/taurus/lib64/python2.6/site-packages/taurus/qt/qtgui/resource/tango-icons/emotes/face-wink.svg</iconset>
+    <iconset resource="pinger.qrc">
+     <normaloff>:/icon/icon/face-wink.svg</normaloff>:/icon/icon/face-wink.svg</iconset>
    </property>
    <property name="text">
     <string>Quit</string>

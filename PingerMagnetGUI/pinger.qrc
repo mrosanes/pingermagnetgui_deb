@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/icon" >
+        <file>icon/abort.svg</file>
+        <file>icon/apply.svg</file>
+        <file>icon/arrow_empty.svg</file>
+        <file>icon/Blue-rocket.svg</file>
+        <file>icon/bruker-tune.svg</file>
+        <file>icon/checkmark.png</file>
+        <file>icon/ctpcgui.png</file>
+        <file>icon/flow_go2.svg</file>
+        <file>icon/flow_stop2.svg</file>
+        <file>icon/forward.svg</file>
+        <file>icon/info.svg</file>
+        <file>icon/local.svg</file>
+        <file>icon/poweroff.png</file>
+        <file>icon/power.png</file>
+        <file>icon/psgui.png</file>
+        <file>icon/remote.svg</file>
+        <file>icon/reset.svg</file>
+        <file>icon/start_sync.svg</file>
+        <file>icon/up_gray.svg</file>
+        <file>icon/face-wink.svg</file>
+        <file>icon/up.svg</file>
+    </qresource>
+</RCC>
